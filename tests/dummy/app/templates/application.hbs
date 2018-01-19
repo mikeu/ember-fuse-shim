@@ -1,3 +1,24 @@
 <h2 id="title">Welcome to Ember</h2>
 
+<h3>All names:</h3>
+<ul>
+  {{#each list as |entry|}}
+    <li>{{entry.n}}</li>
+  {{/each}}
+</ul>
+
+<h3>Search term:</h3>
+{{input value=searchTerm}}
+
+<h3>Search results:</h3>
+{{#if searchResults}}
+  <ul>
+    {{#each searchResults as |result|}}
+      <li>{{result.n}}</li>
+    {{/each}}
+  </ul>
+{{else}}
+  -None-
+{{/if}}
+
 {{outlet}}
