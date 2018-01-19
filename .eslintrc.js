@@ -15,6 +15,10 @@ module.exports = {
     browser: true
   },
   rules: {
+    quotes: ['error', 'single'],
+    semi: ['error', 'always'],
+    'space-before-function-paren': ['error', 'always'],
+    'comma-dangle': ['error', 'always-multiline'],
   },
   overrides: [
     // node files
