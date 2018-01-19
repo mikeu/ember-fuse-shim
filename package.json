@@ -1,6 +1,6 @@
 {
   "name": "ember-fuse-shim",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Provides a shim to import Fuse.js as an ES6 module in Ember applicaitons",
   "keywords": [
     "ember-addon",
