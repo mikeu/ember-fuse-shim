@@ -1,9 +1,12 @@
 {
   "name": "ember-fuse-shim",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Provides a shim to import Fuse.js as an ES6 module in Ember applicaitons",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "fuse",
+    "fuse.js",
+    "fuzzy search"
   ],
   "license": "MIT",
   "author": "",
@@ -11,7 +14,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/mikeu/ember-fuse-shim",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
